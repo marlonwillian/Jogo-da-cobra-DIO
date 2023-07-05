@@ -49,6 +49,7 @@ function iniciarJogo(){
         if(snake[0].x === snake[i].x && snake[0].y === snake[i].y){
             alert("Você morreu!")
             window.location.reload(true);
+            break
         }
     }
 
